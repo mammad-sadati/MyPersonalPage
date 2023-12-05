@@ -1,0 +1,82 @@
+.border-bottom-header{
+    border-bottom: solid;
+    border-image-source: radial-gradient(circle at center, #D5CEFA, transparent 100%);
+    border-image-slice: 1;
+}
+.span1{
+ background: -webkit-linear-gradient(180deg, #6754EA 25%, #000000 75%);
+ background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+.btn-purple{
+    background-color: #6754EA;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 50px;
+}
+.btn-gray{
+    background-color: #ACACAC;
+    color: #252525;
+    border-radius: 30px;
+    padding: 15px 50px;
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+.img-responsive2{
+    width: 25%;
+    height: auto;
+}
+.img-myP{
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+}
+.f-bg{
+    background-color: #ACACAC;
+}
+.footer-info{
+    background: radial-gradient(circle at 100% 100%, Transparent 0, Transparent 96px, transparent 96px) 0% 0%/100px 100px no-repeat,
+            radial-gradient(circle at 0 100%, Transparent 0, Transparent 96px, transparent 96px) 100% 0%/100px 100px no-repeat,
+            radial-gradient(circle at 100% 0, Transparent 0, Transparent 96px, transparent 96px) 0% 100%/100px 100px no-repeat,
+            radial-gradient(circle at 0 0, Transparent 0, Transparent 96px, transparent 96px) 100% 100%/100px 100px no-repeat,
+            linear-gradient(Transparent, Transparent) 50% 50%/calc(100% - 8px) calc(100% - 200px) no-repeat,
+            linear-gradient(Transparent, Transparent) 50% 50%/calc(100% - 200px) calc(100% - 8px) no-repeat,
+            linear-gradient(90deg, #000 25%, #6754ea 75%);
+            border-radius: 100px;
+            padding: 8px;
+            box-sizing: border-box;
+}
+.img-info{
+    width: auto;
+    height: 200px;
+    padding: 20px;
+}
+.img-info2{
+    width: 70%;
+    height: auto;
+    padding: 20px;
+
+}
+.arrow-up{
+    background: -webkit-linear-gradient(180deg, #6754EA 25%, #000000 75%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-info{
+    background: radial-gradient(circle at 100% 100%, Transparent 0, Transparent 96px, transparent 96px) 0% 0%/100px 100px no-repeat,
+    radial-gradient(circle at 0 100%, Transparent 0, Transparent 96px, transparent 96px) 100% 0%/100px 100px no-repeat,
+    radial-gradient(circle at 100% 0, Transparent 0, Transparent 96px, transparent 96px) 0% 100%/100px 100px no-repeat,
+    radial-gradient(circle at 0 0, Transparent 0, Transparent 96px, transparent 96px) 100% 100%/100px 100px no-repeat,
+    linear-gradient(Transparent, Transparent) 50% 50%/calc(100% - 8px) calc(100% - 200px) no-repeat,
+    linear-gradient(Transparent, Transparent) 50% 50%/calc(100% - 200px) calc(100% - 8px) no-repeat,
+    linear-gradient(90deg, #000 25%, #6754ea 75%);
+    border-radius: 250px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.tree{
+    width: 80%;
+    height: auto;
+}
