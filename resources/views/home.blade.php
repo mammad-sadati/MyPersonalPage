@@ -34,16 +34,36 @@
         <h2 class="text-center">
             My Skills
         </h2>
-        <div class="d-lg-flex mt-3">
-            <div class="col-lg-6 text-center">
+        <div class="d-lg-flex flex-wrap mt-3">
+            <div class="col-lg-4 text-center mb-5">
                 <img class="img-responsive2" src="/assets/html.png" alt="logo">
                 <h4>HTML5</h4>
-                <p>2 Month</p>
+                
             </div>
-            <div class="col-lg-6 text-center">
+            <div class="col-lg-4 text-center mb-5">
                 <img class="img-responsive2" src="/assets/css.png" alt="logo">
                 <h4>CSS</h4>
-                <p>1 Month</p>
+                
+            </div>
+            <div class="col-lg-4 text-center mb-5">
+                <img class="img-responsive2" src="/assets/js.png" alt="logo">
+                <h4>javascript</h4>
+                
+            </div>
+            <div class="col-lg-4 text-center mb-5">
+                <img class="img-responsive2" src="/assets/bootstrap.png" alt="logo">
+                <h4>bootstrap</h4>
+                
+            </div>
+            <div class="col-lg-4 text-center mb-5">
+                <img class="img-responsive2" src="/assets/php.png" alt="logo">
+                <h4>php</h4>
+                
+            </div>
+            <div class="col-lg-4 text-center mb-5">
+                <img class="img-responsive2" src="/assets/laravel.png" alt="logo">
+                <h4>laravel</h4>
+                
             </div>
         </div>
     </div>

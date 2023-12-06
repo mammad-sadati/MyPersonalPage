@@ -5,7 +5,7 @@
 }
 .span1{
  background: -webkit-linear-gradient(180deg, #6754EA 25%, #000000 75%);
- background-clip: text;
+ -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
 }
 .btn-purple{
@@ -26,7 +26,7 @@
 }
 .img-responsive2{
     width: 25%;
-    height: auto;
+    height: 75%;
 }
 .img-myP{
     width: 95%;
@@ -61,7 +61,7 @@
 }
 .arrow-up{
     background: -webkit-linear-gradient(180deg, #6754EA 25%, #000000 75%);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .about-info{
