@@ -23,7 +23,9 @@
             </div>
             <!-- section2 -->
             <div class="col-12 col-lg-6">
-                <img class="img-responsive" src="/assets/Mohammad sadati.svg" alt="Avatar">
+                <div class="img-responsive shadow" style="border-radius: 50%; width: 500px; height: 500px">
+                    <img class="" style="margin:10%" src="/assets/avatar.png" alt="Avatar">
+                </div>
             </div>
         </main>
     </div>
@@ -78,7 +80,7 @@
 
             <!-- section1 -->
 
-            <div class="my-5">
+            <div class="my-5 ">
                 <a class="btn btn-gray" href="pupart.html">
                     <div>
                         <h2>PupArt</h2>

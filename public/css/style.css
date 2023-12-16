@@ -20,9 +20,19 @@
     border-radius: 30px;
     padding: 15px 50px;
 }
+.shadow{
+    filter: drop-shadow(75px 75px 20px #000);
+}
 .img-responsive{
-    width: 100%;
-    height: auto;
+  width: 80%;
+  height: 80%;
+    --border-size: 5px;
+  --border-angle: 0turn;
+  
+  background-image: conic-gradient(from var(--border-angle), rgba(42, 51, 17), rgb(17, 32, 34) 0%, rgb(17, 51, 29)), conic-gradient(from var(--border-angle), transparent 20%, #6754EA);
+  background-size: calc(0% - (var(--border-size) * 2)) calc(0% - (var(--border-size) * 2)), cover;
+  -webkit-animation: bg-spin 3s linear infinite;
+          animation: bg-spin 3s linear infinite;
 }
 .img-responsive2{
     width: 25%;
@@ -79,4 +89,24 @@
 .tree{
     width: 80%;
     height: auto;
+}
+@-webkit-keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+.box:hover {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
 }
